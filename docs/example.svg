@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1297" viewBox="0 0 1120 1297" role="img" aria-labelledby="report-title report-description">
+<title id="report-title">FlowScope — Kapasitas distribusi logistik kampus</title>
+<desc id="report-description">Aliran maksimum 23 paket/jam, kapasitas minimum cut 23. Label sisi menunjukkan aliran per kapasitas.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#64748b"/></marker><marker id="cut-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#c24136"/></marker></defs>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#162c43}.mono{font-family:monospace}.small{font-size:13px}.muted{fill:#51677c}.label{font-size:12px;font-weight:bold;paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}.heading{font-size:20px;font-weight:bold}</style>
+<rect width="1120" height="1297" fill="#f3f6fa"/>
+<rect width="1120" height="105" fill="#112d47"/>
+<text x="36" y="34" style="fill:#91c8ee;font-size:13px;letter-spacing:3px">FLOWSCOPE / LAPORAN KAPASITAS</text>
+<text x="36" y="74" style="fill:white;font-size:25px;font-weight:bold">Kapasitas distribusi logistik kampus</text>
+<rect x="32" y="123" width="341.3333333333333" height="108" rx="12" fill="white" stroke="#dbe4ef"/>
+<text x="50" y="147" style="font-size:11px;letter-spacing:1px" class="muted">ALIRAN MAKSIMUM</text>
+<text x="50" y="183" style="font-size:30px;font-weight:bold">23</text>
+<text x="50" y="211" class="small muted">paket/jam</text>
+<rect x="389.3333333333333" y="123" width="341.3333333333333" height="108" rx="12" fill="white" stroke="#dbe4ef"/>
+<text x="407.3333333333333" y="147" style="font-size:11px;letter-spacing:1px" class="muted">KAPASITAS MINIMUM CUT</text>
+<text x="407.3333333333333" y="183" style="font-size:30px;font-weight:bold">23</text>
+<text x="407.3333333333333" y="211" class="small muted">3 sisi pada cut</text>
+<rect x="746.6666666666666" y="123" width="341.3333333333333" height="108" rx="12" fill="white" stroke="#dbe4ef"/>
+<text x="764.6666666666666" y="147" style="font-size:11px;letter-spacing:1px" class="muted">PROSES EDMONDS–KARP</text>
+<text x="764.6666666666666" y="183" style="font-size:30px;font-weight:bold">3</text>
+<text x="764.6666666666666" y="211" class="small muted">augmentasi / sertifikat terverifikasi</text>
+<text x="36" y="263" class="small muted">Panah = arah sisi asli · label = ID: aliran / kapasitas · garis merah = satu minimum cut</text>
+<path d="M117.18091413077387,423.27706113254794 Q246.66666666666666,391.25 372.2694314695917,360.1833587056595" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>SA: S → A; 12 / 16</title></path>
+<text x="245.69591973342472" y="383.49010495955184" text-anchor="middle" class="label">SA: 12/16</text>
+<path d="M117.18091413077387,436.72293886745206 Q246.66666666666666,468.75 372.2694314695917,499.8166412943405" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>SB: S → B; 11 / 13</title></path>
+<text x="245.69591973342472" y="460.50989504044816" text-anchor="middle" class="label">SB: 11/13</text>
+<path d="M403.3333333333333,380.5 Q503.3333333333333,430 403.3333333333333,475.5" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>AB: A → B; 0 / 10</title></path>
+<text x="453.3333333333333" y="421" text-anchor="middle" class="label">AB: 0/10</text>
+<path d="M403.3333333333333,479.5 Q303.3333333333333,430 403.3333333333333,384.5" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>BA: B → A; 0 / 4</title></path>
+<text x="353.3333333333333" y="423" text-anchor="middle" class="label">BA: 0/4</text>
+<path d="M431.3333333333333,352.5 Q560,352.5 684.6666666666666,352.5" fill="none" stroke="#c24136" stroke-width="3" stroke-dasharray="7 4" marker-end="url(#cut-arrow)"><title>AC: A → C; 12 / 12</title></path>
+<text x="559" y="344.5" text-anchor="middle" class="label">AC: 12/12</text>
+<path d="M691.5695348755594,364.91507051368603 Q560,430 432.01576966602727,493.31134798435886" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>CB: C → B; 0 / 9</title></path>
+<text x="560.8963261353966" y="421.55660462451124" text-anchor="middle" class="label">CB: 0/9</text>
+<path d="M431.3333333333333,507.5 Q560,507.5 684.6666666666666,507.5" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>BD: B → D; 11 / 14</title></path>
+<text x="559" y="499.5" text-anchor="middle" class="label">BD: 11/14</text>
+<path d="M716.6666666666666,479.5 Q716.6666666666666,430 716.6666666666666,384.5" fill="none" stroke="#c24136" stroke-width="3" stroke-dasharray="7 4" marker-end="url(#cut-arrow)"><title>DC: D → C; 7 / 7</title></path>
+<text x="716.6666666666666" y="423" text-anchor="middle" class="label">DC: 7/7</text>
+<path d="M743.8475807974405,359.22293886745206 Q873.3333333333333,391.25 998.9360981362585,422.3166412943405" fill="none" stroke="#64748b" stroke-width="1.8"  marker-end="url(#arrow)"><title>CT: C → T; 19 / 20</title></path>
+<text x="872.3625864000913" y="383.00989504044816" text-anchor="middle" class="label">CT: 19/20</text>
+<path d="M743.8475807974405,500.77706113254794 Q873.3333333333333,468.75 998.9360981362585,437.6833587056595" fill="none" stroke="#c24136" stroke-width="3" stroke-dasharray="7 4" marker-end="url(#cut-arrow)"><title>DT: D → T; 4 / 4</title></path>
+<text x="872.3625864000913" y="460.99010495955184" text-anchor="middle" class="label">DT: 4/4</text>
+<g><title>S — Gudang pusat; sisi cut S</title>
+<circle cx="90" cy="430" r="27" fill="#d9edff" stroke="#276da8" stroke-width="2.5"/>
+<text x="90" y="435" text-anchor="middle" style="font-size:13px;font-weight:bold">S</text>
+<text x="90" y="479" text-anchor="middle" class="small">Gudang pusat</text>
+<text x="90" y="496" text-anchor="middle" style="font-size:11px" class="muted">SOURCE</text></g>
+<g><title>A — Hub utara; sisi cut S</title>
+<circle cx="403.3333333333333" cy="352.5" r="27" fill="#d9edff" stroke="#276da8" stroke-width="2.5"/>
+<text x="403.3333333333333" y="357.5" text-anchor="middle" style="font-size:13px;font-weight:bold">A</text>
+<text x="403.3333333333333" y="401.5" text-anchor="middle" class="small">Hub utara</text>
+<text x="403.3333333333333" y="418.5" text-anchor="middle" style="font-size:11px" class="muted"></text></g>
+<g><title>B — Hub selatan; sisi cut S</title>
+<circle cx="403.3333333333333" cy="507.5" r="27" fill="#d9edff" stroke="#276da8" stroke-width="2.5"/>
+<text x="403.3333333333333" y="512.5" text-anchor="middle" style="font-size:13px;font-weight:bold">B</text>
+<text x="403.3333333333333" y="556.5" text-anchor="middle" class="small">Hub selatan</text>
+<text x="403.3333333333333" y="573.5" text-anchor="middle" style="font-size:11px" class="muted"></text></g>
+<g><title>C — Pos timur; sisi cut T</title>
+<circle cx="716.6666666666666" cy="352.5" r="27" fill="#ffead2" stroke="#b6691f" stroke-width="2.5"/>
+<text x="716.6666666666666" y="357.5" text-anchor="middle" style="font-size:13px;font-weight:bold">C</text>
+<text x="716.6666666666666" y="401.5" text-anchor="middle" class="small">Pos timur</text>
+<text x="716.6666666666666" y="418.5" text-anchor="middle" style="font-size:11px" class="muted"></text></g>
+<g><title>D — Pos barat; sisi cut S</title>
+<circle cx="716.6666666666666" cy="507.5" r="27" fill="#d9edff" stroke="#276da8" stroke-width="2.5"/>
+<text x="716.6666666666666" y="512.5" text-anchor="middle" style="font-size:13px;font-weight:bold">D</text>
+<text x="716.6666666666666" y="556.5" text-anchor="middle" class="small">Pos barat</text>
+<text x="716.6666666666666" y="573.5" text-anchor="middle" style="font-size:11px" class="muted"></text></g>
+<g><title>T — Tujuan kampus; sisi cut T</title>
+<circle cx="1030" cy="430" r="27" fill="#ffead2" stroke="#b6691f" stroke-width="2.5"/>
+<text x="1030" y="435" text-anchor="middle" style="font-size:13px;font-weight:bold">T</text>
+<text x="1030" y="479" text-anchor="middle" class="small">Tujuan kampus</text>
+<text x="1030" y="496" text-anchor="middle" style="font-size:11px" class="muted">SINK</text></g>
+<text x="36" y="642" class="small muted">Biru: partisi S · jingga: partisi T. Menambah satu sisi cut belum tentu meningkatkan aliran; uji lewat skenario.</text>
+<text x="36" y="675" class="heading">Rincian sisi</text>
+<text x="36" y="707" class="small muted">ID sisi</text>
+<text x="260" y="707" class="small muted">Dari</text>
+<text x="470" y="707" class="small muted">Ke</text>
+<text x="655" y="707" class="small muted">Aliran</text>
+<text x="795" y="707" class="small muted">Kapasitas</text>
+<text x="925" y="707" class="small muted">Sisa</text>
+<text x="1020" y="707" class="small muted">Cut</text>
+<rect x="24" y="714" width="1072" height="30" fill="#fff"/>
+<text x="36" y="734" class="small mono">SA</text>
+<text x="260" y="734" class="small mono">S</text>
+<text x="470" y="734" class="small mono">A</text>
+<text x="655" y="734" class="small mono">12</text>
+<text x="795" y="734" class="small mono">16</text>
+<text x="925" y="734" class="small mono">4</text>
+<text x="1020" y="734" class="small mono">—</text>
+<rect x="24" y="745" width="1072" height="30" fill="#eaf0f7"/>
+<text x="36" y="765" class="small mono">SB</text>
+<text x="260" y="765" class="small mono">S</text>
+<text x="470" y="765" class="small mono">B</text>
+<text x="655" y="765" class="small mono">11</text>
+<text x="795" y="765" class="small mono">13</text>
+<text x="925" y="765" class="small mono">2</text>
+<text x="1020" y="765" class="small mono">—</text>
+<rect x="24" y="776" width="1072" height="30" fill="#fff"/>
+<text x="36" y="796" class="small mono">AB</text>
+<text x="260" y="796" class="small mono">A</text>
+<text x="470" y="796" class="small mono">B</text>
+<text x="655" y="796" class="small mono">0</text>
+<text x="795" y="796" class="small mono">10</text>
+<text x="925" y="796" class="small mono">10</text>
+<text x="1020" y="796" class="small mono">—</text>
+<rect x="24" y="807" width="1072" height="30" fill="#eaf0f7"/>
+<text x="36" y="827" class="small mono">BA</text>
+<text x="260" y="827" class="small mono">B</text>
+<text x="470" y="827" class="small mono">A</text>
+<text x="655" y="827" class="small mono">0</text>
+<text x="795" y="827" class="small mono">4</text>
+<text x="925" y="827" class="small mono">4</text>
+<text x="1020" y="827" class="small mono">—</text>
+<rect x="24" y="838" width="1072" height="30" fill="#fff"/>
+<text x="36" y="858" class="small mono">AC</text>
+<text x="260" y="858" class="small mono">A</text>
+<text x="470" y="858" class="small mono">C</text>
+<text x="655" y="858" class="small mono">12</text>
+<text x="795" y="858" class="small mono">12</text>
+<text x="925" y="858" class="small mono">0</text>
+<text x="1020" y="858" class="small mono">Ya</text>
+<rect x="24" y="869" width="1072" height="30" fill="#eaf0f7"/>
+<text x="36" y="889" class="small mono">CB</text>
+<text x="260" y="889" class="small mono">C</text>
+<text x="470" y="889" class="small mono">B</text>
+<text x="655" y="889" class="small mono">0</text>
+<text x="795" y="889" class="small mono">9</text>
+<text x="925" y="889" class="small mono">9</text>
+<text x="1020" y="889" class="small mono">—</text>
+<rect x="24" y="900" width="1072" height="30" fill="#fff"/>
+<text x="36" y="920" class="small mono">BD</text>
+<text x="260" y="920" class="small mono">B</text>
+<text x="470" y="920" class="small mono">D</text>
+<text x="655" y="920" class="small mono">11</text>
+<text x="795" y="920" class="small mono">14</text>
+<text x="925" y="920" class="small mono">3</text>
+<text x="1020" y="920" class="small mono">—</text>
+<rect x="24" y="931" width="1072" height="30" fill="#eaf0f7"/>
+<text x="36" y="951" class="small mono">DC</text>
+<text x="260" y="951" class="small mono">D</text>
+<text x="470" y="951" class="small mono">C</text>
+<text x="655" y="951" class="small mono">7</text>
+<text x="795" y="951" class="small mono">7</text>
+<text x="925" y="951" class="small mono">0</text>
+<text x="1020" y="951" class="small mono">Ya</text>
+<rect x="24" y="962" width="1072" height="30" fill="#fff"/>
+<text x="36" y="982" class="small mono">CT</text>
+<text x="260" y="982" class="small mono">C</text>
+<text x="470" y="982" class="small mono">T</text>
+<text x="655" y="982" class="small mono">19</text>
+<text x="795" y="982" class="small mono">20</text>
+<text x="925" y="982" class="small mono">1</text>
+<text x="1020" y="982" class="small mono">—</text>
+<rect x="24" y="993" width="1072" height="30" fill="#eaf0f7"/>
+<text x="36" y="1013" class="small mono">DT</text>
+<text x="260" y="1013" class="small mono">D</text>
+<text x="470" y="1013" class="small mono">T</text>
+<text x="655" y="1013" class="small mono">4</text>
+<text x="795" y="1013" class="small mono">4</text>
+<text x="925" y="1013" class="small mono">0</text>
+<text x="1020" y="1013" class="small mono">Ya</text>
+<text x="36" y="1064" class="heading">Jejak augmentasi</text>
+<text x="36" y="1089" class="small muted">Tanda ← pada ID sisi berarti memakai residual balik. Jejak lengkap tersedia di result.json.</text>
+<text x="36" y="1123" class="small mono">#1  +12  total=12  SA → AC → CT</text>
+<text x="36" y="1157" class="small mono">#2  +4  total=16  SB → BD → DT</text>
+<text x="36" y="1191" class="small mono">#3  +7  total=23  SB → BD → DC → CT</text>
+<text x="36" y="1269" class="small muted">FlowScope 1.0.0 · kapasitas bulat · SHA-256 graf: 96f21e8b43cef45b3093ace0…</text>
+</svg>

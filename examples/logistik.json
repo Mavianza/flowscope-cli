@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "title": "Kapasitas distribusi logistik kampus",
+  "unit": "paket/jam",
+  "source": "S",
+  "sink": "T",
+  "nodes": [
+    {"id": "S", "label": "Gudang pusat"},
+    {"id": "A", "label": "Hub utara"},
+    {"id": "B", "label": "Hub selatan"},
+    {"id": "C", "label": "Pos timur"},
+    {"id": "D", "label": "Pos barat"},
+    {"id": "T", "label": "Tujuan kampus"}
+  ],
+  "edges": [
+    {"id": "SA", "from": "S", "to": "A", "capacity": 16},
+    {"id": "SB", "from": "S", "to": "B", "capacity": 13},
+    {"id": "AB", "from": "A", "to": "B", "capacity": 10},
+    {"id": "BA", "from": "B", "to": "A", "capacity": 4},
+    {"id": "AC", "from": "A", "to": "C", "capacity": 12},
+    {"id": "CB", "from": "C", "to": "B", "capacity": 9},
+    {"id": "BD", "from": "B", "to": "D", "capacity": 14},
+    {"id": "DC", "from": "D", "to": "C", "capacity": 7},
+    {"id": "CT", "from": "C", "to": "T", "capacity": 20},
+    {"id": "DT", "from": "D", "to": "T", "capacity": 4}
+  ]
+}

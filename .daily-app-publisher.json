@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "request_date": "2026-11-03",
+  "repository": "flowscope-cli",
+  "payload_sha256": "be8fe511fc2a450b783862f530305d04101b87f7c1b691021a91a84f369cb524",
+  "source_repository": "Mavianza/daily-app-publisher",
+  "source_commit": "50b680efecf7e6ca0af50df1c9ee5eefae6acc3d",
+  "source_run_url": "https://github.com/Mavianza/daily-app-publisher/actions/runs/41494443901",
+  "published_at": "2026-11-02T17:47:36.214262+00:00"
+}
